@@ -41,8 +41,6 @@ client.on('close', function() {
 
 function call(method, params) {
 
-  console.log('xy', method, params);
-
   return new Promise(function(resolve, reject) {
 
     if(!client_connected) {
